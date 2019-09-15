@@ -11,20 +11,28 @@ The assignment documentation can be found [here](https://d1b10bmlvqabco.cloudfro
 
 ## Run Instructions
 Here are the sample instructions used to connect and send messages between two clients connected to the server.
+### Mode
+ + 1: `unencrypted`
+ + 2: `encrypted`
+ + 3: `encrypted and signature`
 ### Setup Server
 `python chat_server.py`
  + Enter Port Number: `8000`
  + Enter IP address: `0.0.0.0`
+ + Enter mode: `mode`
 ### Setup Client 1
 `python client.py`
  + Enter Port Number: `8000`
  + Enter IP address: `0.0.0.0`
  + Enter username: `medha`
+ + Enter mode: `mode`
+ 
 ### Setup Client 2
 `python client.py`
  + Enter Port Number: `8000`
  + Enter IP address: `0.0.0.0`
  + Enter username: `namrata`
+ + Enter mode: `mode`
 
 ## Messages Format
 + `@[recipient_username][message]` : To send message to client
