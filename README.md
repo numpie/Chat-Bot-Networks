@@ -17,14 +17,14 @@ Here are the sample instructions used to connect and send messages between two c
  + Enter IP address: `0.0.0.0`
 ### Setup Client 1
 `python client.py`
- +Enter Port Number: `8000`
- +Enter IP address: `0.0.0.0`
- +Enter username: `medha`
+ + Enter Port Number: `8000`
+ + Enter IP address: `0.0.0.0`
+ + Enter username: `medha`
 ### Setup Client 2
 `python client.py`
- +Enter Port Number: `8000`
- +Enter IP address: `0.0.0.0`
- +Enter username: `namrata`
+ + Enter Port Number: `8000`
+ + Enter IP address: `0.0.0.0`
+ + Enter username: `namrata`
 
 ## Messages Format
 + `@[recipient_username][message]` : To send message to client
